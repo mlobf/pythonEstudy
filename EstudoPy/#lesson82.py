@@ -1,7 +1,7 @@
-#lesson82.py
+# lesson82.py
 choice = "-"
 
-while  choice != "0":
+while choice != "0":
     if choice in "12345":
         print("you choose {}".format(choice))
     else:
@@ -12,6 +12,5 @@ while  choice != "0":
         print("4:\t Have dinner")
         print("5:\t Go to bed")
         print("0:\t Exit")
-    
-    choice = input("")
 
+    choice = input("")
