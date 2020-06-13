@@ -19,5 +19,9 @@ else:
     print("You are old enough to vote")
     print("Please put X in the box")
 """
-for x in range(1000):
+for z in range(787):
+    print("viva o timao!")
+
+
+for x in range(100):
     print("papapapapapa papa papa !!!")
