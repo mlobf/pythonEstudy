@@ -1,0 +1,7 @@
+aula 3
+    app de delivery
+    A url sera o end point
+    que sera mapping por uma funçao de python
+    Method que altera = patch
+    Method que deleta x com id={}
+    
