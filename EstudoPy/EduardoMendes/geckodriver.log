@@ -305,3 +305,135 @@ console.error: "Store does not have a valid reducer. Make sure the argument pass
 1592095854189	Marionette	INFO	Listening on port 43647
 1592095854269	Marionette	WARN	TLS certificate errors will be ignored for this session
 1592095865961	Marionette	INFO	Stopped listening on port 43647
+1592096046167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFPVB5p"
+
+(/usr/lib/firefox/firefox:112338): Gtk-WARNING **: 21:54:07.032: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112338): Gtk-WARNING **: 21:54:07.032: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112338): Gtk-WARNING **: 21:54:07.032: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112338): Gtk-WARNING **: 21:54:07.032: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112361): Gtk-WARNING **: 21:54:07.163: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112361): Gtk-WARNING **: 21:54:07.163: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112361): Gtk-WARNING **: 21:54:07.163: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112361): Gtk-WARNING **: 21:54:07.163: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:112252): GLib-GIO-WARNING **: 21:54:07.182: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1592096047822	Marionette	INFO	Listening on port 45865
+1592096047903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592096057305	Marionette	INFO	Stopped listening on port 45865
+1592096079819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBPyEkV"
+
+(/usr/lib/firefox/firefox:112611): Gtk-WARNING **: 21:54:40.692: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112611): Gtk-WARNING **: 21:54:40.693: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112611): Gtk-WARNING **: 21:54:40.693: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112611): Gtk-WARNING **: 21:54:40.693: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:112533): GLib-GIO-WARNING **: 21:54:40.864: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:112637): Gtk-WARNING **: 21:54:40.865: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112637): Gtk-WARNING **: 21:54:40.865: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112637): Gtk-WARNING **: 21:54:40.865: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112637): Gtk-WARNING **: 21:54:40.865: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+1592096081458	Marionette	INFO	Listening on port 38603
+1592096081561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592096095175	Marionette	INFO	Stopped listening on port 38603
+1592096132661	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelpXpVe"
+
+(/usr/lib/firefox/firefox:112901): Gtk-WARNING **: 21:55:33.543: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112901): Gtk-WARNING **: 21:55:33.543: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112901): Gtk-WARNING **: 21:55:33.543: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112901): Gtk-WARNING **: 21:55:33.543: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:112825): GLib-GIO-WARNING **: 21:55:33.662: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:112924): Gtk-WARNING **: 21:55:33.693: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112924): Gtk-WARNING **: 21:55:33.693: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112924): Gtk-WARNING **: 21:55:33.693: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:112924): Gtk-WARNING **: 21:55:33.693: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+1592096134269	Marionette	INFO	Listening on port 42087
+1592096134391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592096144324	Marionette	INFO	Stopped listening on port 42087
+1592096172456	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2bCH0b"
+
+(/usr/lib/firefox/firefox:113185): Gtk-WARNING **: 21:56:13.325: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113185): Gtk-WARNING **: 21:56:13.325: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113185): Gtk-WARNING **: 21:56:13.325: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113185): Gtk-WARNING **: 21:56:13.325: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113208): Gtk-WARNING **: 21:56:13.446: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113208): Gtk-WARNING **: 21:56:13.446: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113208): Gtk-WARNING **: 21:56:13.446: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113208): Gtk-WARNING **: 21:56:13.447: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:113099): GLib-GIO-WARNING **: 21:56:13.479: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1592096174102	Marionette	INFO	Listening on port 46247
+1592096174186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592096179944	Marionette	INFO	Stopped listening on port 46247
+1592096307934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePem76i"
+
+(/usr/lib/firefox/firefox:113488): Gtk-WARNING **: 21:58:28.797: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113488): Gtk-WARNING **: 21:58:28.797: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113488): Gtk-WARNING **: 21:58:28.798: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113488): Gtk-WARNING **: 21:58:28.798: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113511): Gtk-WARNING **: 21:58:28.890: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113511): Gtk-WARNING **: 21:58:28.891: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113511): Gtk-WARNING **: 21:58:28.892: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113511): Gtk-WARNING **: 21:58:28.892: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:113406): GLib-GIO-WARNING **: 21:58:28.938: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1592096309585	Marionette	INFO	Listening on port 34905
+1592096309660	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592096314688	Marionette	INFO	Stopped listening on port 34905
+1592096345827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileR3Xkoh"
+
+(/usr/lib/firefox/firefox:113751): Gtk-WARNING **: 21:59:06.700: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113751): Gtk-WARNING **: 21:59:06.700: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113751): Gtk-WARNING **: 21:59:06.700: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113751): Gtk-WARNING **: 21:59:06.701: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113777): Gtk-WARNING **: 21:59:06.830: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113777): Gtk-WARNING **: 21:59:06.830: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113777): Gtk-WARNING **: 21:59:06.830: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:113777): Gtk-WARNING **: 21:59:06.830: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:113666): GLib-GIO-WARNING **: 21:59:06.854: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1592096347513	Marionette	INFO	Listening on port 43685
+1592096347544	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592096357834	Marionette	INFO	Stopped listening on port 43685
