@@ -1,4 +1,4 @@
-aula 3
+Aula 3
     app de delivery
     A url sera o end point
     que sera mapping por uma funçao de python
@@ -7,6 +7,32 @@ aula 3
 
 Relação de matérias para aprender from end e http/html.
 
-O java script e importante saber o basico.
+O Java Script e importante saber o básico.
 
 Css , Html, Js.
+
+    Voltando para o Backend, vamo falar do WSGI-somente para Python,
+    ou o servidor de aplicativos.
+    A principal funcao de WSGI e integrar os 
+    frameworks com os servidores web.
+    A tanto, este, usa de linguagem um tanto simplista,
+    nao fazendo mais que lidar com os requests dos fra_
+    _works.
+        Django, Flask, fastAPI, dentre muitos, fazem uso
+        desta ferramenta.
+    Doravante:
+        apache <=> WSGI <=> Django
+
+? O que e aplicaçao assíncrona ? -> E quando o servidor nao fica parado aquar_
+    _dando um io, ele passa a atender uma outra requisiçao e quando a resposta_
+    _a da primeira demanda chega, ele voltar a cuidar desta primeira demanda,
+    voltado a cuidar da segunda demanda em outro momento.
+    Um servidor sincrono e aquele que somente realiza uma requisiçao por vez,
+    iniciando uma segunda demanda somente findado a primeira.
+
+   Now its time for Flask!!!
+
+   E minimalista, e um microframework, 
+   AULA COMEÇA EM 2.43 
+   Finalizei as 3.04
+
