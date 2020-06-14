@@ -4,4 +4,9 @@ aula 3
     que sera mapping por uma funçao de python
     Method que altera = patch
     Method que deleta x com id={}
-    
+
+Relação de matérias para aprender from end e http/html.
+
+O java script e importante saber o basico.
+
+Css , Html, Js.

@@ -916,3 +916,23 @@ console.error: "Store does not have a valid reducer. Make sure the argument pass
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1592162268542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletA1bPE"
+
+(/usr/lib/firefox/firefox:31389): Gtk-WARNING **: 16:17:49.455: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31389): Gtk-WARNING **: 16:17:49.456: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31389): Gtk-WARNING **: 16:17:49.456: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31389): Gtk-WARNING **: 16:17:49.456: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31412): Gtk-WARNING **: 16:17:49.525: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31412): Gtk-WARNING **: 16:17:49.526: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31412): Gtk-WARNING **: 16:17:49.526: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31412): Gtk-WARNING **: 16:17:49.526: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+1592162270058	Marionette	INFO	Listening on port 36957
+1592162270153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592162434172	Marionette	INFO	Stopped listening on port 36957
