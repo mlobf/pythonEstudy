@@ -1,21 +1,25 @@
 from selenium.webdriver import Firefox
-import pdb
-import time
+from pdb import set_trace
+from time import sleep
+
 
 url = "https://curso-python-selenium.netlify.app/aula_03.html"
 navegador = Firefox()
 
 navegador.get(url)
-
-pdb.set_trace()
+sleep(1)
+# pdb.set_trace()
 
 a = navegador.find_element_by_tag_name("a")
+p = navegador.find_element_by_tag_name("p")
 
-for x in range(28):
+print(f"texto de a:{a.text}")
+print(f"texto de p:{p.text}")
+
+
+for x in range(100):
+    sleep(0.25)
+    print(f"texto de p:{p.text}")
     a.click()
-    time.sleep(1)
 
-# for x in range(10):
-# a.click()
-
-#    navegador.quit()
+# navegador.quit()
