@@ -21,5 +21,5 @@ for x in range(100):
     sleep(0.25)
     print(f"texto de p:{p.text}")
     a.click()
-
+# mais um comentario
 # navegador.quit()
