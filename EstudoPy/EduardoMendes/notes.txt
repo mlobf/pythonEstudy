@@ -83,4 +83,30 @@ Now its for selenium
     Refazer esta aula 5 a partir do 20 min,
 
     Voltar para o Python Course Udemy
+    163 - Method part 1 
+
+    Conceito de Encasulamento
+        Nao expor os metodos e dados para o mundo exterior
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
