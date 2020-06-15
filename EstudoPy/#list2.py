@@ -1,5 +1,5 @@
-#list.py
-parrot_list = ["non pinpinpin", "no more","a stiff", "bererth of live" ] 
+# list.py
+parrot_list = ["non pinpinpin", "no more", "a stiff", "bererth of live"]
 parrot_list.append("brazilian blue")
 
 for state in parrot_list:

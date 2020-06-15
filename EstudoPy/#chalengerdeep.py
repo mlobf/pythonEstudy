@@ -1,4 +1,4 @@
-#chalengerdeep.py
+# chalengerdeep.py
 
 """
 I will write a program to print a number of options and allow the user to select
@@ -14,19 +14,5 @@ list = ("learn python", "Go swiming", "learn run", "quit")
 print("Please choose one of option from the list below")
 
 
-
-
-
-
-
 for l in list:
     print("Ai esta a sua escolha {}".format(l))
-
-
-
-
-
-
-
-
-

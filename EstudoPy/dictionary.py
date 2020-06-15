@@ -1,12 +1,13 @@
-#Revisao do uso de dicionario em python
+# Revisao do uso de dicionario em python
 
-fruit = {"oranger": "a sweet, orange, citrus fruit",
-        "apple": "a good way for make cider",
-        "lemon": "a sour, yellow citrus fruit",
-        "grape": "a small, sweet fruit growing on bunches",
-        "lime":  "a sour, green citrus"
+fruit = {
+    "oranger": "a sweet, orange, citrus fruit",
+    "apple": "a good way for make cider",
+    "lemon": "a sour, yellow citrus fruit",
+    "grape": "a small, sweet fruit growing on bunches",
+    "lime": "a sour, green citrus",
 }
-'''
+"""
 print(fruit)
 while True:
     dict_key = input("Please enter a fruit: ")
@@ -18,4 +19,4 @@ while True:
     else:
         print("We dont have a " + dict_key
         )
-'''
+"""

@@ -13,4 +13,3 @@ while chosen_exit not in available_exits:
         break
 else:
     print("Are you glad to get out of here? ")
-

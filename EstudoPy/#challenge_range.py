@@ -1,4 +1,4 @@
-#91_lesson_challenge_range.py
+# 91_lesson_challenge_range.py
 
 """
 Experiment differents types of ranges 
@@ -7,8 +7,8 @@ This is a good way to check if thoose are what you are expected
 You may like to include thing like:
 """
 
-y=4
-x =10 
+y = 4
+x = 10
 o = range(0, 100, 4)
 print(o)
 
@@ -17,7 +17,7 @@ print(p)
 
 for i in p:
     print(i)
-#CODE_APPROVED
+# CODE_APPROVED
 
 for x in range(1, 10000):
     print("oi mor te amo chuchu!!")

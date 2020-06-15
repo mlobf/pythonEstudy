@@ -1,8 +1,8 @@
-#teste.py
-'''
+# teste.py
+"""
 MAKE SOME PROGRAM THAT:
     Use 
-'''
+"""
 """
 x = 1
 y = 4000000
@@ -20,7 +20,7 @@ z = 1
 while x < y:
     if x > y:
         print("É diferente de y")
-    elif x == 4: 
+    elif x == 4:
         print("Sera a pamonha de piracicaba?")
     else:
         print("Senão e isso daqui")

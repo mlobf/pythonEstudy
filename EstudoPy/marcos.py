@@ -11,4 +11,3 @@ for number in numbers:
     print("oioiioio")
 for g in range(1, 10000):
     print("sei la de la ")
-

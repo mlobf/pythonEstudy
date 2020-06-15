@@ -1,4 +1,4 @@
-shopping_list =["milk","pasta","eggs","spam","bread","rice"]
+shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
 
 itenstofind = "spam"
 
@@ -13,13 +13,3 @@ if found is not None:
     print("Item found at position {}".format(found))
 else:
     print("{} not found".format(itenstofind))
-
-
-
-
-
-
-
-
-
-

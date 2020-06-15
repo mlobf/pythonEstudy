@@ -36,3 +36,26 @@ Css , Html, Js.
    AULA COMEÇA EM 2.43 
    Finalizei as 3.04
 
+
+Now its for selenium 
+    
+    Aula 4 
+
+    =busca aninhada
+    =Atributos
+    =Navegaçao
+    
+
+    """
+        Ha uma enorme importancia em entender o DOM, 
+        separar x minutos por dia para estudar esta
+        coisa.
+
+    """
+
+
+
+
+
+
+

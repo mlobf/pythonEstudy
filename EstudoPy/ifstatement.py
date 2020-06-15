@@ -1,13 +1,12 @@
-#ifstatement.py
-#Meu primeiro Programa print("Coloque o seu nome aqui ")
+# ifstatement.py
+# Meu primeiro Programa print("Coloque o seu nome aqui ")
 meu_nome = input()
 print("Coloque sua idade aqui ")
-idade =int(input())
+idade = int(input())
 print("Escreva o nome dos seus pais aqui ")
 meu_pais = input()
 print("Coloque a sua pretenção salarial aqui ")
 meu_salario = int(input())
-
 
 
 print()
@@ -31,29 +30,6 @@ print()
 fff = "4444"
 
 if fff >= idade:
-    print('teste1123')
-else:   
-    print('seila ')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print("teste1123")
+else:
+    print("seila ")
