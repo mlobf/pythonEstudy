@@ -52,6 +52,7 @@ Now its for selenium
         coisa.
 
     """
+    Criando funçoes em 32m.Parei em 40.27
 
 
 
