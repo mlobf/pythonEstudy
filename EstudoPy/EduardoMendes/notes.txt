@@ -1,7 +1,7 @@
 Aula 3
     app de delivery
     A url sera o end point
-    que sera mapping por uma funçao de python
+   que sera mapping por uma funçao de python
     Method que altera = patch
     Method que deleta x com id={}
 
@@ -13,7 +13,7 @@ Css , Html, Js.
 
     Voltando para o Backend, vamo falar do WSGI-somente para Python,
     ou o servidor de aplicativos.
-    A principal funcao de WSGI e integrar os 
+    A principal funcao de WSGI e integrar os
     frameworks com os servidores web.
     A tanto, este, usa de linguagem um tanto simplista,
     nao fazendo mais que lidar com os requests dos fra_
@@ -32,31 +32,55 @@ Css , Html, Js.
 
    Now its time for Flask!!!
 
-   E minimalista, e um microframework, 
-   AULA COMEÇA EM 2.43 
+   E minimalista, e um microframework,
+   AULA COMEÇA EM 2.43
    Finalizei as 3.04
 
 
-Now its for selenium 
-    
-    Aula 4 
+Now its for selenium
+
+    Aula 4
 
     =busca aninhada
     =Atributos
     =Navegaçao
-    
+
 
     """
-        Ha uma enorme importancia em entender o DOM, 
+        Ha uma enorme importancia em entender o DOM,
         separar x minutos por dia para estudar esta
         coisa.
 
     """
     Criando funçoes em 32m.Parei em 40.27
 
+    Funciona da mesma forma que em um programa normal
+    em python.
+
+    Navegacao.
+        Difere um pouco, pois ha uma relacao na qual
+        a descricao de uma url nao pode ser colada da
+        mesma forma em um outro navegador, pois o estado
+        atual da mesma pode ser fruto da interaçao de
+        elementos que nao possuem representaçao na url.
+        Javascrip a saber.
+
+    Entendendo uma URL
+        nesta temos:
+        schema => neloc => path
+        http://   uol.com  carros_avaliacao
 
 
+    Aula 05 Python Selenium
+
+    Atributos Globais =>
 
 
+        ha uma maneira de realizar esta busca por ID's
+        Navegador.find_elements_by_ids()
 
+    O CSS e uma tag Style, pode estar em um arquivo separado e
+    Refazer esta aula 5 a partir do 20 min,
+
+    Voltar para o Python Course Udemy
 
