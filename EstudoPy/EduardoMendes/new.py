@@ -34,6 +34,5 @@ navegador.quit()
 #    print(f"texto de p:{a.text}")
 #    a.click()
 
-
 # mais um comentario
 # navegador.quit()
