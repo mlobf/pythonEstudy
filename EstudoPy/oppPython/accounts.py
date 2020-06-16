@@ -19,9 +19,6 @@ class Account:
         print("Account created for " + self._name)
         self.show_balance()
 
-#commets
-
-
     def deposit(self, amount):
         if amount > 0:
             self._balance += amount
