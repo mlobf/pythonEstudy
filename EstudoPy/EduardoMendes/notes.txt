@@ -83,30 +83,35 @@ Now its for selenium
     Refazer esta aula 5 a partir do 20 min,
 
     Voltar para o Python Course Udemy
-    163 - Method part 1 
+    163 - Method part 1
 
     Conceito de Encasulamento
         Nao expor os metodos e dados para o mundo exterior
-        
+        """
+        if __name__ == '__main__':
+            tim = Account("Tim", 0)
+            tim.show_balance()
+        """
+        Acima ha um conceito de seguranca, ancapsulamento
+        pois somente permite que seja inicializado quando for
+        a propria funçao quem chama.
 
+        Conceito de MethodosStaticos
 
+            Estes sao colocados sempre acima do __init__
+            Eles comecao com _nomedometodostatico()
 
+            Estes methodos sao compartilhados por todas as instancias
+            da Classe -"vide: power_source"
+            ! Para tornar o metodo estatico, devemos:
+            1-Remover o self do parametro do metodo
+            2-colocar acima do def, @staticmethod
+            Ao fazer uso de metodostatico, devemos
+            chamar diretamente a classe,
+            Account._current_time()
+            E desta forma nao fazemos uso do self._current_xpto
+            vale lembrar que podemos usar o self, mas nao e
+            recomendado por razoes de performance e, em especial,
+            por convençao.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    Public, Mangling
