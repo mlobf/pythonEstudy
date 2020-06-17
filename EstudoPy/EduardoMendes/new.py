@@ -1,21 +1,29 @@
 from selenium.webdriver import Firefox
-import time
+from time import sleep
+
+lista_noticias = []
+firefox = Firefox()
 
 
-navegador = selenium.webdriver.firefox()
+url ='https://www.uol.com.br'
 
 
-sleep(10)
+firefox.get(url)
 
-
-elementos = navegador.find_elements_by_tag_name("src")
+elementos = firefox.find_elements_by_tag_name("a")
 
 for elemento in elementos:
-    print(elemento.text)
+    lista_noticias.append(elemento.text)
+sleep(1)
 
-sleep(9)
+print(lista_noticias)
 
 
-navegador.quit()
+firefox.quit()
+
+
+
+
+
 
 # p = navegador.find_element_by_tag_name("p")
