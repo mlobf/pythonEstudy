@@ -1,4 +1,4 @@
-import selenium
+from selenium.webdriver import Firefox
 import time
 
 

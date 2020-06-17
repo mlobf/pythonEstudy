@@ -5,6 +5,9 @@ import pdb
 class Account:
     """
     Simple class Account with balance.
+        This is a test  about the use of docstrings
+        Thoose are intended to use in some way to 
+            document Classes, Methods or Functions.
     """
 
     @staticmethod
@@ -12,9 +15,6 @@ class Account:
         utc_time = datetime.datetime.utcnow()
         return pytz.utc.localize(utc_time)
 
-
-
-#clearn teste 
 
     def __init__(self, name, balance):
         self._name = name
@@ -69,3 +69,5 @@ if __name__ == "__main__":
     james.withdraw(200)
     james.show_transactions()
     james.show_balance()
+    print(james.__dict__)
+

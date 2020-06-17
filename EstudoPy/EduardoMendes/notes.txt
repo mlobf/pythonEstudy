@@ -115,3 +115,19 @@ Now its for selenium
             por convençao.
 
     Public, Mangling 
+        Importante, quando ha __xyz dizemos "dunder bass"    
+                    Essa e a forma do python proteger um nome
+                    de ser usado fora de sua alçada.
+
+                   Quando ha _xyz , quer dizer que este elemento 
+                    deve ser tratado pelo progammer as private.
+                    This is just a convenction but its as well 
+                    relevant.
+                    
+        Docstrings:
+            Servem para documentar a Classe, Methodo,Funçao.
+            """O Texto fica entre as aspas triplas"""
+    Python terminou 168            
+
+    Agora Selenium
+         
