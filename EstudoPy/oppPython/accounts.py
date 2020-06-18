@@ -7,6 +7,9 @@ class Account:
     Simple class Account with balance.
         This is a test  about the use of docstrings
         Thoose are intended to use in some way to 
+        This is a test for vc code
+
+
             document Classes, Methods or Functions.
     """
 
@@ -70,4 +73,3 @@ if __name__ == "__main__":
     james.show_transactions()
     james.show_balance()
     print(james.__dict__)
-
