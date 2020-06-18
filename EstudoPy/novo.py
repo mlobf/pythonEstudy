@@ -4,8 +4,15 @@
 # So we need add more guest
 # The only right answer is 5, and this meand that this game is boring as Hell
 
+from selenium.webdriver import Chrome
+
 import random
 
-answer = random.randint(0, 10)
 
-print(answer)
+
+for um in range(459889):
+    answer = random.randint(0, 777)
+    print(answer)
+
+
+

@@ -2,14 +2,16 @@ Cursos de Programacao:
 
         Webscrapper
             =>37 =>Profisional
-        Flask
+        Flask + Rest API
             =>37 => Profisional
-        Django
+        Django, just a  intro
             =>37 => Intro
         Vim
-            =>37
+            =>39 => Profisional
 
-
+Tio => Impressao da Vovo.
+       Inquilino ap 7
+       
 
 
 
@@ -145,3 +147,28 @@ Now its for selenium
     Python terminou 168
 
     Agora Selenium
+
+    Aula 05a 
+    
+
+
+
+
+    Decorators:
+        Serve para mudar o comportamento de uma funcao sem ter que 
+        mudar o codigo desta. Serve tambem para facilitar o reuso de 
+        codigo. 
+        E muito usado no Django. Ex verificar se o usuario esta logado sem ter 
+        que carregar uma pagina.
+
+
+
+    Getter  and Setters
+        Uma maneira de permitir ou restringir acesso das Classes aos atributos.
+        Problemas, as classe tem acesso livre aos atributos.
+        
+
+
+
+
+
