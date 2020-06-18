@@ -1,3 +1,18 @@
+Cursos de Programacao:
+
+        Webscrapper
+            =>37 =>Profisional
+        Flask
+            =>37 => Profisional
+        Django
+            =>37 => Intro
+        Vim
+            =>37
+
+
+
+
+
 Aula 3
     app de delivery
     A url sera o end point
@@ -114,20 +129,19 @@ Now its for selenium
             recomendado por razoes de performance e, em especial,
             por convençao.
 
-    Public, Mangling 
-        Importante, quando ha __xyz dizemos "dunder bass"    
+    Public, Mangling
+        Importante, quando ha __xyz dizemos "dunder bass"
                     Essa e a forma do python proteger um nome
                     de ser usado fora de sua alçada.
 
-                   Quando ha _xyz , quer dizer que este elemento 
+                   Quando ha _xyz , quer dizer que este elemento
                     deve ser tratado pelo progammer as private.
-                    This is just a convenction but its as well 
+                    This is just a convenction but its as well
                     relevant.
-                    
+
         Docstrings:
             Servem para documentar a Classe, Methodo,Funçao.
             """O Texto fica entre as aspas triplas"""
-    Python terminou 168            
+    Python terminou 168
 
     Agora Selenium
-         
