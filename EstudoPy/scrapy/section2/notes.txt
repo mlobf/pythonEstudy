@@ -71,7 +71,7 @@ Part 4
 Section 3 - xpath and css selectors
         xpath - e um caminho de xml para acessar elementos web
         css   - me recuso a dizer.
-
+        
 
 
 

@@ -7,6 +7,9 @@ print(thistuple)
 # = apple 
 print(thistuple[1])
 
+
+#Just testing key bindings
+
 #Access tuple using negative index 
 # = cherry
 print(thistuple[-1])
