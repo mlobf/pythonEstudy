@@ -61,5 +61,17 @@ Part 3
 
 Part 4
 
-    Using expath expressions and css selectors.
+    Using xpath expressions and css selectors.
+        xpath is the html path on target's direction.
+    Using CSS to scrapy its not so effective as others methods.
+    This happens because slightly decrease spyders performance.
     
+    scrapy crawl name_of_the_project
+
+Section 3 - xpath and css selectors
+        xpath - e um caminho de xml para acessar elementos web
+        css   - me recuso a dizer.
+
+
+
+
