@@ -2,51 +2,19 @@ from selenium.webdriver import Chrome
 from time import sleep
 
 
-chrome = Chrome()
+chr = Chrome()
+lista = []
 
 
-urls_letra = []
-lista_noticias = []
-letters = [
-    "a",
-    "b",
-    "c",
-    "d",
-    "e",
-    "f",
-    "g",
-    "h",
-    "i",
-    "j",
-    "k",
-    "l",
-    "m",
-    "n",
-    "o",
-    "p",
-    "q",
-    "r",
-    "s",
-    "t",
-    "u",
-    "v",
-    "x",
-]
-
-for letter in letters:
-    url2 = "https://www.yellowpages.ae/categories-by-alphabet/{}.html"
+g1 = chr.get('https://g1.globo.com/')
+g1.find_element_by_tag_name('a')
 
 
-url = "https://www.yellowpages.ae/companies-by-alphabet/a.html"
 
 
-elementos = chrome.find_elements_by_tag_name("a")
-
-for elemento in elementos:
-    lista_noticias.append(elemento.text)
-sleep(1)
-
-print(lista_noticias)
 
 
-chrome.quit()
+print(g1)
+
+sleep(3)
+chr.quit()
