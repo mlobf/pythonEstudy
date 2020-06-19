@@ -1,0 +1,65 @@
+This is the second section,
+
+    Part 1
+
+    Scrapy has thoose options:
+
+        1-bench
+            Simple benchmark, to run it.....> scrapy bench
+        2-fetch
+            A good way to fetch html using scrapy....>
+                scrapy fetch http://www.somesitehere.com
+        3-genspider
+            This command will gen a spider"robot"scaffold, using to scrap
+                info from web sites.
+        4-runspider
+           Gen a standard spider for testing proposes. 
+        5-settings
+            Put your config here. 
+        6-shell
+            Interative console. 
+        7-startproject
+            Will generate the templeate for a new project
+        8-version
+            Print the version on run
+        9-view
+            Open some url thru spider tools. 
+
+Part 2
+
+    How to start a project.
+        scrapy startproject name_of_the_project
+
+        This command will generate a lot files and to config the _
+            the project, file scrapy.cfg must be edit.
+        
+        In items.py, you will 'clean' the data scraped and store it_
+            in some field.
+
+        In middleware.py, everthing to do with resquest and response_
+            objects.
+
+        In pipelines.py, its used to store scraped items on database.
+       
+        In settings.py, its used to make extra config on project.
+
+    4m start the scrape
+
+        When paste the url , https must be deleted, only the www.xyz.com..._
+            must remains,also some final "/" must be deleted.
+        
+
+
+Part 3
+
+    Interative Console.
+    Inside's projects, just type 'scrapy shell'
+        On this part, was show some real world interation using the_
+            interative console. Also was demonstread how to find ele_
+            _ments using the interative console from chominium to find
+            inspected elements from page.
+
+Part 4
+
+    Using expath expressions and css selectors.
+    
