@@ -3,6 +3,8 @@
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple)
 
+
+
 #Access tuple items
 # = apple 
 print(thistuple[1])
@@ -66,6 +68,29 @@ print(thistuple)
 #---------------------------------------------------
 print("-"*80)
 #---------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#---------------------------------------------------
+
 
 
 

@@ -11,8 +11,7 @@ This is the second section,
                 scrapy fetch http://www.somesitehere.com
         3-genspider
             This command will gen a spider"robot"scaffold, using to scrap
-                info from web sites.
-        4-runspider
+                info from web sites.  4-runspider
            Gen a standard spider for testing proposes. 
         5-settings
             Put your config here. 
@@ -72,6 +71,24 @@ Section 3 - xpath and css selectors
         xpath - e um caminho de xml para acessar elementos web
         css   - me recuso a dizer.
         
+
+
+Exemplo de xpath
+    =>  //a[contains(@href,'fr')]
+    =>  Busca a ancora que possui dentro de seu link 'fr'
+        Tal modelo busca todos os elementos dentro da pagina que 
+            possua determinadas caracteristicas.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
