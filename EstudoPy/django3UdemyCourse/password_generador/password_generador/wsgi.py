@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'password_generador.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "password_generador.settings")
 
 application = get_wsgi_application()
