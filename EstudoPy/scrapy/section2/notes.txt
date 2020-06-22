@@ -1,6 +1,6 @@
 This is the second section,
 
-    Part 1
+   Part 1
 
     Scrapy has thoose options:
 
@@ -78,17 +78,6 @@ Exemplo de xpath
     =>  Busca a ancora que possui dentro de seu link 'fr'
         Tal modelo busca todos os elementos dentro da pagina que 
             possua determinadas caracteristicas.
-
-
-
-
-
-
-
-
-
-
-
 
 
 

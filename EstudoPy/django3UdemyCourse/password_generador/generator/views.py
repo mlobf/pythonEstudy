@@ -6,5 +6,5 @@ from django.http import HttpResponse
 def home(request):
     return render(request, 'generator/home.html', {'password':'hasdfasfiahfaish'})
 
-def eggs(request):
-    return HttpResponse("<h1>Who here like eggs more than me?!!</h1>")
+def password(request):
+    return render(request, 'generator/home.html', {'password':'hasdfasfiahfaish'})

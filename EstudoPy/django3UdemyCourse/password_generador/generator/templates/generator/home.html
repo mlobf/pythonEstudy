@@ -1,3 +1,19 @@
-<h1>This is my home page</h1>
+<h1>Password Generator</h1>
 
-{{password}}
+<form action="{%url 'password' %}">
+
+    <select name="lenght">
+        <option value="6">6</option>
+        <option value="5">5</option>
+        <option value="4">4</option>
+        <option value="3">3</option>
+        <option value="2">2</option>
+        <option value="1">1</option>
+    </select>
+
+    <input type="checkbox" name='uppercase'>
+
+    <input type="submit" value="Generate Password">
+
+
+</form>
