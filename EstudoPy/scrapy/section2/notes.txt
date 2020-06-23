@@ -80,4 +80,11 @@ Exemplo de xpath
             possua determinadas caracteristicas.
 
 
+span id
+id="ContentPlaceHolder1_dlkeyword_detail"
+
+div class
+divComapnyDetails
+
+
 

@@ -19,6 +19,3 @@ def get_store(name):
 # GET /store/<string:name>/item
 
 app.run(port=5000)
-
-
-
