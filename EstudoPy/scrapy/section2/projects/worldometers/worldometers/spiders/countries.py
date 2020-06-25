@@ -15,3 +15,6 @@ class CountriesSpider(scrapy.Spider):
             'title': title,
             'countries': countries
         }
+
+
+
