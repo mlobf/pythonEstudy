@@ -4,7 +4,7 @@ import scrapy
 
 class CountriesSpider(scrapy.Spider):
     name = "countries"
-    allowed_domains = ["www.worldometers.info/"]
+    allowed_domains = ["www.worldometers.info"]
     start_urls = [
         "https://www.worldometers.info/world-population/population-by-country/"
     ]
@@ -15,10 +15,9 @@ class CountriesSpider(scrapy.Spider):
 
             name = country.xpath(".//text()").get()
             link = country.xpath(".//@href").get()
-            pop20 = country.xpath(".//").get()
 
-            yield {
-                    'country_name' : name,
-                    'country_link' : link,
-                    'country_pop20': pop20
-                } #response.follow(url=link)
+
+            yield response.follow(url=link, callback=self.parse_country)
+    
+    def parse_country(self, response):
+        
