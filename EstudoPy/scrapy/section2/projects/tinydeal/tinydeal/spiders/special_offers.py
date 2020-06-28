@@ -19,4 +19,4 @@ class SpecialOffersSpider(scrapy.Spider):
         next_page = response.xpath("//a[@class='nextPage']/@href").get()
 
         if next_page:
-            yield scrapy.Request(url=next_page,callback=self.parse)
+            yield scrapy.Request(url=next_page, callback=self.parse)
