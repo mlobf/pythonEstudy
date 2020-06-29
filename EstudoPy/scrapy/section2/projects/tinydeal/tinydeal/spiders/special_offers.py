@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+import pdb
 
 class SpecialOffersSpider(scrapy.Spider):
     name = 'special_offers'
     allowed_domains = ['www.tinydeal.com']
     start_urls = ['https://www.tinydeal.com/pt/specials.html']
-
+    pdb.set_trace()
     def parse(self, response):
         for product in response.xpath("//ul[@class='productlisting-ul']/div/li"):
             yield{
