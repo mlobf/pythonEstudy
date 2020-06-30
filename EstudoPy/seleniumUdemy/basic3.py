@@ -1,3 +1,4 @@
+import pdb
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -19,15 +20,17 @@ driver = webdriver.Chrome(options= chrome_options)
 for letra in letras:
     url = f"https://www.yellowpages.ae/companies-by-alphabet/{letra}.html"
     driver.get(url)
-    #xs = driver.find_elements_by_xpath('//h2/a/@href')
-    xs = driver.find_elements_by_name("a")
-# 
-# 
-# 
-# 
+    xs = driver.find_elements_by_xpath('//h2/a')
+    #xs = driver.find_elements_by_name("a")
+#    pdb.set_trace()
 # 
     for x in xs:
         lista.append(x.text)
+#Encontrar o botao de next page, encontrado
+
+    if driver.find_element_by_xpath("//a[@id='ContentPlaceHolder1_lnkNext']"):
+        print("ACHOUUUUU!")
+        
 
 f1 = open("/home/italia/github/pythonEstudy/EstudoPy/seleniumUdemy/relatorio.txt", "w")
 

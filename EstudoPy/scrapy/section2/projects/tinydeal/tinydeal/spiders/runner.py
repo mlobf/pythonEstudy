@@ -11,4 +11,3 @@ from random import Random
 process = CrawlerProcess(settings=get_project_settings())
 process.crawl(SpecialOffersSpider)
 process.start()
-
