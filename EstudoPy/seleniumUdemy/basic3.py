@@ -1,4 +1,3 @@
-import pdb
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -14,23 +13,32 @@ chrome_options.add_argument('--headless')
 letras= ['a']
 lista = []
 driver = webdriver.Chrome(options= chrome_options)
-
+is_novice = 0
 #-----------------------------------------------------------------------
 
 for letra in letras:
-    url = f"https://www.yellowpages.ae/companies-by-alphabet/{letra}.html"
+    if is_novice > 0:
+        url = driver.find_element_by_xpath("//a[@id='ContentPlaceHolder1_lnkNext']/@href")
+    else:
+        url = f"https://www.yellowpages.ae/companies-by-alphabet/{letra}.html"
     driver.get(url)
+
     xs = driver.find_elements_by_xpath('//h2/a')
     #xs = driver.find_elements_by_name("a")
 #    pdb.set_trace()
 # 
     for x in xs:
         lista.append(x.text)
-#Encontrar o botao de next page, encontrado
 
     if driver.find_element_by_xpath("//a[@id='ContentPlaceHolder1_lnkNext']"):
-        print("ACHOUUUUU!")
-        
+
+        print(driver.find_element_by_xpath('//a[@id='ContentPlaceHolder1_lnkNext']/@href))
+
+        next_page = driver.find_element_by_xpath("//a[@id='ContentPlaceHolder1_lnkNext']/@href")
+        next_page.click()
+        is_novice +1
+
+#------------------Relatorio----------------------------------------------------------
 
 f1 = open("/home/italia/github/pythonEstudy/EstudoPy/seleniumUdemy/relatorio.txt", "w")
 

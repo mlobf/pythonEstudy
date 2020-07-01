@@ -40,6 +40,8 @@ driver = webdriver.Chrome(options=chrome_options)
 for letra in letras:
     url = f"https://www.yellowpages.ae/categories-by-alphabet/{letra}.html"
     driver.get(url)
+    
+
     xs = driver.find_elements_by_tag_name("h2")
     for x in xs:
         lista.append(x.text)
@@ -50,3 +52,28 @@ for l in lista:
     print(l, file=f1)
 
 driver.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
