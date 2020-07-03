@@ -10,6 +10,8 @@ driver = webdriver.Chrome(options=chrome_options)
 driver.get(url)
 ddd = driver.find_elements_by_xpath("//a")
 
+
+
 for d in ddd:
 
     print(d.get_attribute("href"))
@@ -21,7 +23,7 @@ for d in ddd:
 print('nao ok')
 
 
-
+    
 
 
 

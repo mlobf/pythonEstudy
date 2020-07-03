@@ -45,6 +45,9 @@ for letra in letras:
     xs = driver.find_elements_by_tag_name("h2")
     for x in xs:
         lista.append(x.text)
+        print(x.text)
+
+from selenium import webdriver
 
 f1 = open("/home/italia/github/pythonEstudy/EstudoPy/seleniumUdemy/relatorio.txt", "w")
 
