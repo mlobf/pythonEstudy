@@ -81,6 +81,10 @@ ROBOTSTXT_OBEY = True
 # Enable showing throttling stats for every response received:
 # AUTOTHROTTLE_DEBUG = False
 
+
+
+
+
 # Enable and configure HTTP caching (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
 # HTTPCACHE_ENABLED = True
