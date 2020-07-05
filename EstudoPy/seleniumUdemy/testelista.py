@@ -24,11 +24,15 @@ letras = [
     "z",
 ]
 
+def listao(letras):
+    for letra in letras:
+        url = f"https://www.yellowpages.ae/categories-by-alphabet/{letra}.html"
 
-for letra in letras:
-    url = f"https://www.yellowpages.ae/categories-by-alphabet/{letra}.html"
+        print(url)
 
-    print(url)
+l = ["a","b","c","b","d"]
+
+listao(letras)
 
 
 # print(url)

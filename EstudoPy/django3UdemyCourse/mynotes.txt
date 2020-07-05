@@ -1,0 +1,77 @@
+
+-------------------------------------------------------------------------------
+Lesson 38
+-------------------------------------------------------------------------------
+To start a project:
+    ->django-admin startproject name_of_project
+
+    Once inside, its time to make some app on it.
+        For that:
+            ->python3.8 startapp name_of_app
+
+    Every time that you create a app, you have to go to apps settings.py
+        and set the news apps on list of apps the : blog , protifolio.
+    
+    To run the server you have to type:
+        ->python3.8 manage.py runserver
+-------------------------------------------------------------------------------
+Lesson 40        
+-------------------------------------------------------------------------------
+    Models
+
+    The Class is an table and the rows are the objects    
+       
+    Go to portfolio folder, file models.py
+        There you need build a class to represent the_
+        you model.
+            To assist you, you can use oficial documentation,
+            ->https://docs.djangoproject.com/en/3.0/ref/models/fields/
+        
+        Using the oficial documentation is sommething very important to_ 
+        go futher in programming steps.
+
+        class Project(models.Model):
+            title = models.CharField(max_length=100)
+            description = models.CharField(max_length=250)
+            image = models.ImageField(upload_to='portfolio/images/')
+            url = models.URLField(blank=True)
+
+
+        Any time you make change on you model, you should do an migration
+        to align the make relationship between model/db harmonic.
+        So, its time to:
+
+            ->python3.8 manage.py migrate
+            
+            now it time to create the model
+
+            ->python3.8 manage.py makemigrations
+
+        If i need change something on my model, I never should edit directily_
+            the file genenade by django. Insted, I have to to change the original
+            file, on models.py. And run the original process again,
+
+-------------------------------------------------------------------------------
+Lesson 40
+        Admim and Images
+-------------------------------------------------------------------------------
+        
+        To go to admin page you have to go to /admin, 
+        To create an admin login and password, 
+            ->python3.8 manage.py createsuperuser
+        To change the created password:
+            ->python3.8 manage.py changepassword
+
+
+        Now to change the default image folder
+            
+        Django media images tutorial.
+
+        Now for use the images on django .......
+        Pay attencion , this will be hard.
+
+
+
+
+
+
