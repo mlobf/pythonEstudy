@@ -70,6 +70,33 @@ Lesson 40
         Now for use the images on django .......
         Pay attencion , this will be hard.
 
+-------------------------------------------------------------------------------
+Lesson 41
+      Display objects 
+-------------------------------------------------------------------------------
+
+    This video shows how to display the objects therefore created on _
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
