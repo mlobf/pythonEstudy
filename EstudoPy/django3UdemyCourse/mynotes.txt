@@ -106,7 +106,8 @@ Lesson 48
     getbootstrap.com
     getstarted
      -> Just apply the templates.
-     -> 
+     -> But the better form is use an base template,
+     
 
 
 
