@@ -6,7 +6,20 @@
     <title>Marks Portfolio</title>
 </head>
 <body>
-   <h1>Marks Portfolio test</h1> 
+
+    <h1>Marks Portfolio test</h1> 
+
+    
+    {% load static %}
+    <a href="{% url 'blog:all_blogs' %}">Blog</a>
+    <br>
+    <a href="{% static 'portfolio/cv.pdf' %}">Resume</a>
+    <br>
+
+    
+    <img src="{% static 'portfolio/pic.jpg' %}" height="250">
+<img src="" alt="">
+
 
    {% for project in projects %}
 
@@ -18,7 +31,6 @@
    <a href="{{project.url}}">Link</a>
    {% endif %}
    {% endfor %}
-
 
 </body>
 </html>
