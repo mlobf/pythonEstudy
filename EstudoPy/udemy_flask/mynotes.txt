@@ -1,7 +1,20 @@
+______________________________________________________________________________
+Ver com descer mais rapido no Vim com as Teclas.
+
+
+
+______________________________________________________________________________
 O que sao web  services?
     Um programa que realiza requisicoes web.
 
     Quando nosso navegador realiza uma requisicao no google
         ele na verdade diz ao navegador,...
             GET / HTTP / 1.1
-            Host: www.google.com
+A Host: www.google.com
+
+
+
+Postman serve como ferramente profissional para teste de apis.
+
+
+
