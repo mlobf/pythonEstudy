@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lets blog</title>
-</head>
-<body>
+{% extends 'portfolio/base.html' %}
+
+
+{% block content %}
+
+
+
+
 <h2>Mark has written {{blogs.count}} blog{{blogs.count | pluralize}}</h2>
-   <a href="{% url 'blog:all_blogs' %}">Blog</a>
-   {% for blog in blogs %} 
+<a href="{% url 'blog:all_blogs' %}">Blog</a>
+{% for blog in blogs %}
 
 
-   <a href="{% url 'blog:detail' blog.id %}"> <h2>{{ blog.title }}</h2></a>
-    <p>{{ blog.description|safe|truncatechars:100 }}</p>
-  <h4><p>{{ blog.date|date:'M d Y' }}</p></h4>
+<a href="{% url 'blog:detail' blog.id %}">
+  <h2>{{ blog.title }}</h2>
+</a>
+<p>{{ blog.description|safe|truncatechars:100 }}</p>
+<h4>
+  <p>{{ blog.date|date:'M d Y' }}</p>
+</h4>
 
 
 
-   {% endfor %}
+{% endfor %}
 
-</body>
-</html>
+
+
+{% endblock %}
