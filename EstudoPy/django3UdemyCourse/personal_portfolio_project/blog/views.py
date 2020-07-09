@@ -1,5 +1,9 @@
 from django.shortcuts import render, get_object_or_404
 from blog.models import Blog
+
+
+
+
 # Create your views here.
 
 def all_blogs(request):

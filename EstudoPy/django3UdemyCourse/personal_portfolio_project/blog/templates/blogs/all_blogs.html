@@ -14,12 +14,12 @@
 <a href="{% url 'blog:detail' blog.id %}">
   <h2>{{ blog.title }}</h2>
 </a>
-<p>{{ blog.description|safe|truncatechars:100 }}</p>
-<h4>
+
+<h5>
   <p>{{ blog.date|date:'M d Y' }}</p>
-</h4>
+</h5>
 
-
+<p>{{ blog.description|safe|truncatechars:100 }}</p>
 
 {% endfor %}
 
