@@ -5,5 +5,7 @@ from django.contrib.auth.forms import UserCreationForm
 
 
 def signupuser(request):
-    return  render(request, 'todo/signupuser.html', {'form':UserCreationForm()})
+    return render(request, "todo/signupuser.html", {"form": UserCreationForm()})
 
+
+# teste 1234
