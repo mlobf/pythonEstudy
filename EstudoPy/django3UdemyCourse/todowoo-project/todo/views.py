@@ -7,6 +7,7 @@ from django.contrib.auth import login
 # Create your views here.
 # Teste nova view vesao 2
 
+
 def signupuser(request):
     if request.method == "GET":
         return render(request, "todo/signupuser.html", {"form": UserCreationForm()})
