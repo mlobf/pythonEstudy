@@ -4,7 +4,6 @@ from django.contrib.auth.models import User
 from django.db import IntegrityError
 from django.contrib.auth import login
 
-
 # Create your views here.
 
 
@@ -19,7 +18,7 @@ def signupuser(request):
                 )
                 user.save()
                 login(request, user)
-                return redirect('currenttodos')
+                return redirect("currenttodos")
             except IntegrityError:
                 return render(
                     request,
