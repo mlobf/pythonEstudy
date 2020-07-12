@@ -5,7 +5,7 @@ from django.db import IntegrityError
 from django.contrib.auth import login
 
 # Create your views here.
-# Teste nova view
+# Teste nova view vesao 2
 
 def signupuser(request):
     if request.method == "GET":
