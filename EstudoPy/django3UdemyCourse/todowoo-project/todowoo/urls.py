@@ -25,5 +25,6 @@ urlpatterns = [
     # Todos
     path("current/", views.currenttodos, name="currenttodos"),
     # path('/', ),
+    path("nova/", views.novo, name="novo"),
 ]
 

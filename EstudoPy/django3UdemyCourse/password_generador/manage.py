@@ -9,6 +9,8 @@
     The settings.py its some thing that you dont have to be afraid.
 """
 
+import os
+import sys
 
 def main():
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "password_generador.settings")
