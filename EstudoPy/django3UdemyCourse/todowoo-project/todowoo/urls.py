@@ -26,5 +26,6 @@ urlpatterns = [
     path("current/", views.currenttodos, name="currenttodos"),
     # path('/', ),
     path("nova/", views.novo, name="novo"),
+    # mais um teste
+    path('clientes/', views.clientes, name="clientes"), 
 ]
-
