@@ -125,3 +125,23 @@ Teste da relacao de atualizaçao do vscode:w
 
 
 
+
+-------------------------------------------------------------------------------
+todo two
+
+1-primeiro cria o projeto 
+    -> django-admin startproject todotwo
+2-depois cria o app
+    -> python3.8 manage.py startapp todo
+
+
+
+
+
+
+
+
+
+
+
+
