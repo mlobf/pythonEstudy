@@ -1,0 +1,95 @@
+3- Step
+    Configuring the settings.py
+    INSTALLED_APPS:[
+        'todo',
+    ]   
+
+4-Step 
+    Migrate
+        python3.8 manage.py migrate
+---------------------------------------------------------------------------------
+61 Class - Sign Up Form
+
+---------------------------------------------------------------------------------
+5-Step
+    On urls.py
+        Import todo's views, and create an url on urls.py
+   
+            from todo import views
+            
+            urlspatterns = [
+               path('signup/', views.signupuser ,name="signupuser")     
+            ]
+---------------------------------------------------------------------------------
+6-Step
+    On views.py add a function signupuser returning to own's template.       
+
+        def signupuser(request):
+            return render(request, 'todo/signupuser.html')
+
+7-Step
+    Create a folder at app todo to store the 
+        sigupuser's template and the templete itself.
+
+---------------------------------------------------------------------------------
+8-Step
+    Using django's form's to create an signupuser form
+    Import django's form's in views.py and add it on template.
+    tip: to 'paragraph mode' in ( form -> form.as_p )
+    method='POST' sends info to urls by a hidden way.
+        =creating some thing, an ACTION 
+    method='GET' sends info to urls by a explicit way.
+        =reading some thing 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+from django.contrib.auth.forms import UserCreationForm
+
+    def signupuser(request):
+        return render(request, 'todo/signupuser.html', {'form':UserCreationForm()})
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+     
+    <form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <button type="submit">Sign Up</button>
+    </form>
+---------------------------------------------------------------------------------
+62 Class - Creating a User
+---------------------------------------------------------------------------------
+    Now we todo/signupuser.html", 
+            {"form": UserCreationForm()})
+    else:
+        #Making sure that first password and the second are the same.
+        if request.POST['password1'] == request.POST['password2']:
+            #Create a new user!!
+            user = User.objects.create_user(request.POST['username'], password=request.POST['password1'])
+            user.save()
+        else:
+            #Tell the user the password didn't match!!
+            print("Beware on the enemy of light!!!")
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create SuperUser,,,,,,
+        pyhon3.8 manage.py createsuperuser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
