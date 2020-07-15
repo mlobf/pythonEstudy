@@ -4,8 +4,7 @@ from django.contrib.auth.models import User
 from django.db import IntegrityError
 from django.contrib.auth import login
 
-
-
+#todo Todos testing
 
 # Create your views here.
 # este nova view vesao 2
@@ -41,5 +40,6 @@ def signupuser(request):
 def currenttodos(request):
     return render(request, "todo/currenttodos.html")
 
+
 def novo(request):
-    return render(request,"todo/novo.html")
+    return render(request, "todo/novo.html")
