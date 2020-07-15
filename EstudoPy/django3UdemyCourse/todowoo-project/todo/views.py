@@ -43,9 +43,3 @@ def currenttodos(request):
 
 def novo(request):
     return render(request,"todo/novo.html")
-
-
-
-
-
-
