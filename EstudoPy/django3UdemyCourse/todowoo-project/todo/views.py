@@ -4,8 +4,11 @@ from django.contrib.auth.models import User
 from django.db import IntegrityError
 from django.contrib.auth import login
 
+
+
+
 # Create your views here.
-# Teste nova view vesao 2
+# este nova view vesao 2
 
 
 def signupuser(request):
@@ -40,3 +43,9 @@ def currenttodos(request):
 
 def novo(request):
     return render(request,"todo/novo.html")
+
+
+
+
+
+
