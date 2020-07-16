@@ -1,4 +1,4 @@
-""" 
+"""
 1- Sortear 6 numeros de 1 a 60. Armazenar em uma lista.
 2- Pedir para o usuario digitar  6 numeros. Armazenar em uma lista.
 3- Checar se o usuario acertou 6, 5 ou 4 numeros.
@@ -15,7 +15,7 @@ def sortiar_numeros():
     print(numeros_sorteados)
 
 for x in range(6):
-    new_number = input("Coloque o numero")
+    #new_number = input("Coloque o numero")
     if new_number in numeros_cliente:
         pass
         #print("escolha outro numero")
