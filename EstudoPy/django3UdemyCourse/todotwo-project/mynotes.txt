@@ -63,8 +63,8 @@ from django.contrib.auth.forms import UserCreationForm
     else:
         #Making sure that first password and the second are the same.
         if request.POST['password1'] == request.POST['password2']:
-            #Create a new user!!
-            user = User.objects.create_user(request.POST['username'], password=request.POST['password1'])
+#Create a new user!!
+    user = User.objects.create_user(request.POST['username'], password=request.POST['password1'])
             user.save()
         else:
             #Tell the user the password didn't match!!
