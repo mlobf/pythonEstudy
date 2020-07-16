@@ -6,7 +6,7 @@ import pdb
 
 app = Flask(__name__)
 
-#pdb.set_trace()
+pdb.set_trace()
 
 
 stores = [
