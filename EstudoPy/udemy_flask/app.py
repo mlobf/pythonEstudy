@@ -1,10 +1,12 @@
 # Beg Importe
 from flask import Flask, jsonify, request, render_template
+import pdb
+
 # End Importe
 
 app = Flask(__name__)
 
-
+#pdb.set_trace()
 
 
 stores = [
