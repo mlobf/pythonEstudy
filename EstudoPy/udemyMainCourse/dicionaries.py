@@ -100,4 +100,4 @@ for snack in f_tuple:
 print(dict(f_tuple))  # dictionary created from tuple
 
 
-# There is a lot of interation betwoin list, tuple and  dicionary
+# There is a lot of interation between list, tuple and  dicionary
