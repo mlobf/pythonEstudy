@@ -1,0 +1,113 @@
+    
+
+-------------------------------------------------------------------------------
+Full Stack - Toronto
+-------------------------------------------------------------------------------
+    • S/MS degree in Computer Science or equivalent. 
+    • 1 year experience and/or multiple co-op placements with high growth tech
+    company highly preferred 
+    • Strong software design skills and a knowledge of how to apply them to the
+    front-end. 
+    • Experience in a modern JavaScript framework such as Angular, React, or Vue. 
+    • Experience with web frameworks such as RoR, Django, .NET MVC, Express, etc. 
+    • You take Extreme Ownership in everything you do - it's one of our core 
+    operating principles. 
+    • You have a customer-first mindset as we are obsessed with customer 
+    experience and setting new standards for excellent service, which we have
+    termed as the "Six-star experience". 
+    • You are open to transparent feedback as we encourage open dialogue and
+    provide candid feedback to help each other succeed. 
+    • You are an ambitious top performer, you persevere through intense obstacles.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Back End - Sao Paulo
+-------------------------------------------------------------------------------
+DESCRIÇÃO DA VAGA
+
+Dia a Dia e Atividades
+
+Você irá atuar no time de Desenvolvimento e Evolução da ferramenta APPSafe 
+(https://www.berghem.com.br/products/appsafe/), 
+que massifica e auxilia no processo de automatização de testes integrados, 
+permitindo a manipulação de parâmetros e regras de negócios, e retornando o 
+impacto destas manipulações.
+
+RESPONSABILIDADES E ATRIBUIÇÕES
+Desenvolvimento Python (Django)
+
+REQUISITOS E QUALIFICAÇÕES
+Requisitos
+
+Usar GitFlow e conhecimentos básicos com git (labs/hub)
+Kanban e ou Scrum
+Boas práticas de desenvolvimento
+Conhecimentos básicos ou teóricos com automação de testes (desejável)
+Práticas de CI/CD
+Saber trabalhar com frameworks de mercado (Django e Pyhton)
+Saber básico de *env (virtual / pip / mkvirtualenv)
+Conhecimentos básicos sobre arquitetura de APIs (consumir e construir)
+Conhecimentos Mongo e ou CouchDB (NoSql)
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Back End  - Sao Paulo
+-------------------------------------------------------------------------------
+DESCRIÇÃO DA VAGA
+Estamos em busca de profissionais que realizem a concepção e implementação. 
+O objetivo é realizar o entendimento e desenvolvimento dos produtos dos nossos 
+clientes, engajamento e comprometimento são fundamentais. Se você gosta de 
+fazer coisas fantásticas, sensacionais e que inspirem outras pessoas, vem com a gente!
+
+RESPONSABILIDADES E ATRIBUIÇÕES
+Participar das cerimônias ( Sprint Planning, Daily Meeting, Sprint Review 
+e Retrospectiva ).
+Ajudar no entendimento do que deve ser desenvolvido.
+Realizar uma documentação prévia das suas tarefas, garantindo o planejamento.
+Realizar o desenvolvimento utilizando técnicas como TDD e BDD.
+Utilizar as melhores práticas de desenvolvimento e Design Patterns.
+Se preocupar com a qualidade dos entregáveis
+Comprometimento com as entregas em equipe.
+Ajudar no review da tarefa de outros integrantes da equipe.
+Levantar os problemas encontrados durante o processo de desenvolvimento,
+formalizando os impedimentos.
+Compartilhar o conhecimento.
+Sugerir melhorias no processo de trabalho.
+Tratar o cliente e o colega de trabalho com cordialidade e ética.
+Participar e promover os treinamentos visando o crescimento da equipe.
+REQUISITOS E QUALIFICAÇÕES
+Requisitos Necessários
+
+
+
+Experiência profissional com Python
+Experiência profissional com Django
+Experiência profissional com Hábito de escrever testes 
+(Unitários, Integrados, Aceitação)
+Experiência profissional com GIT
+Experiência profissional com Banco de Dados (SQL, NoSQL)
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Full Stack - Toronto
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Full Stack - Toronto
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Full Stack - Toronto
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Full Stack - Toronto
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
