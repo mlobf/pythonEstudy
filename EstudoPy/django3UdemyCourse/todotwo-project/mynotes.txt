@@ -78,6 +78,22 @@ Create SuperUser,,,,,,
 
 
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Lesson 63
+    Error handling Lesson 63
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    To implement this feature, we must use, primmaly, two files.
+        views.py and signupuser.html
+
+    Te code will be placed on views.py on related function's signupuser template.
+    
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 
@@ -92,4 +108,17 @@ Create SuperUser,,,,,,
 
 
 
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+

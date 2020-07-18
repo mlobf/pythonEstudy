@@ -10,7 +10,6 @@ fruit = {
 }
 
 
-"""
 #Print all elements on dicionaries
 print(fruit)
 #Print only lemom fruit
@@ -29,7 +28,6 @@ print(fruit)
 fruit.clear()
 print("Only below by now")
 print(fruit)
-"""
 
 # The funcion .get  allows retorn individuals elements on dictionaries and if that element does not exist,
 #   the function retorn a NULL value
