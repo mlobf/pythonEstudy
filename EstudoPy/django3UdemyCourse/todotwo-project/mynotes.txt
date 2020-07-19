@@ -1,7 +1,7 @@
 3- Step
     Configuring the settings.py
     INSTALLED_APPS:[
-        'todo',
+    n   'todo',
     ]   
 
 4-Step 
@@ -96,15 +96,45 @@ Lesson 63
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+Lesson 64
+        Showing if a user is logged on.
+
+Criar um template base que mostre se o usuari esta logado e caso seja este
+colocar um botao de logout. se nao for o caso.
+
+    isso e feito criando-se um base.html na pasta template.
+    Nela e colocado os {% %} {{  }} do Django.
+    Este arquivo sera relacionado a base colocando-se um link no 
+    currenttodos.html
 
 
 
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Lesson 65
+        Como realizar o logout
 
+        O objetivo desta aula e realizar o processo de logout,
+        A primeire coisa a ser feita e criar uma url.
 
+        importante, somente queremos deslogar alguem se for um post "request".
+        vide exemplo da apple e chrome
 
+        Lembrar que e importante criar os formularios no base.html para realizar
+            o logout.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Lesson 66
+        Como realizar o Login
+        E muito similar ao realizado no signoutuser,
+        
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Lesson 67
+        Criando o modelo do todo
+        A parte mais importante e ao relacionamento ente campos.
 
 
 
