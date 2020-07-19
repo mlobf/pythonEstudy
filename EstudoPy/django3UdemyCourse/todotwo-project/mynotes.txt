@@ -137,7 +137,13 @@ Lesson 67
         A parte mais importante e ao relacionamento ente campos.
 
 
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Lesson 68
+        Criando  as ferramemtas em html para apresentar a nosso todo ao
+        mundo, sem usar o formulario de admim,
+        Nisso e possivel ver o verdadeiro poder do djnago,
+        pois , a propria ferramenta permite que ....
+         
 
 
 
