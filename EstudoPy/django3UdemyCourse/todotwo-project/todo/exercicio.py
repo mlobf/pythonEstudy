@@ -15,6 +15,7 @@ def sortiar_numeros():
         numeros_sorteados.append(randrange(0, 60))
     print(numeros_sorteados)
 
+
 for x in range(6):
     # new_number = input("Coloque o numero")
     if new_number in numeros_cliente:

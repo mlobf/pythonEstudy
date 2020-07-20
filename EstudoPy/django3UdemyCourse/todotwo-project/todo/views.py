@@ -2,8 +2,10 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 from django.db import IntegrityError
-from django.contrib.auth import login, logout, authenticate 
+from django.contrib.auth import login, logout, authenticate
 from .forms import TodoForm
+from .models import Todo
+
 
 # Create your views here.
 
@@ -15,7 +17,7 @@ def home(request):
 def signupuser(request):
     """
     Here, at first,  shall we sort GET and POST requisition. Whereas loading
-    _the page. GET will be user for ...... and POST has his use for 
+    _the page. GET will be user for ...... and POST has his use for
 
 
 
@@ -54,10 +56,6 @@ def signupuser(request):
             )
 
 
-def currenttodos(request):
-    return render(request, "todo/currenttodos.html")
-
-
 def loginuser(request):
     if request.method == "GET":
         return render(request, "todo/loginuser.html", {"form": AuthenticationForm()})
@@ -86,17 +84,30 @@ def logoutuser(request):
         logout(request)
         return redirect("home")
 
+
 def createtodo(request):
     if request.method == "GET":
-        return render(request, 'todo/createtodo.html',{'form':TodoForm()})
+        return render(request, "todo/createtodo.html", {"form": TodoForm()})
     else:
         try:
             form = TodoForm(request.POST)
             newtodo = form.save(commit=False)
             newtodo.user = request.user
             newtodo.save()
-            return redirect('currenttodos')
+            return redirect("currenttodos")
         except ValueError:
-            return render(request, 'todo/createtodo.html', {'form':TodoForm(), 'error':'Bad Data pass in'})
+            return render(
+                request,
+                "todo/createtodo.html",
+                {"form": TodoForm(), "error": "Bad Data pass in"},
+            )
+
+
+def currenttodos(request):
+    todos = Todo.objects.filter(user=request.user)
+    return render(request, "todo/currenttodos.html", {"todos": todos})
+
+
+
 
 
