@@ -3,8 +3,9 @@ from flask import Flask
 
 
 app = Flask(__name__)
-
 # Post  - receive data
+
+
 # Get  - send data back only
 @app.route("/store", methods=["POST"])
 def create_store():
