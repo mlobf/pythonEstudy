@@ -152,6 +152,11 @@ Extra - Whats is an api?
         your app.
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+Tasks 
+    - Deploy Blogs project with todo app.
+    - Start Main Python Course in order to finish it in 3 weeks.
+    - Start to learn English Grammar 30 minuts at day.
+    - Buy the Flask Advanced Course.
 
 
 
