@@ -128,6 +128,6 @@ def completetodo(request, todo_pk):
 
 
 # Now my challenge is create a delete button bellow of complete button
-
+# Teste for some changes here in vim
 
 
