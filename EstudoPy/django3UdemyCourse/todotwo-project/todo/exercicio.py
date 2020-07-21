@@ -25,5 +25,3 @@ for x in range(6):
     # numeros_cliente.append(input("Coloque o numero"))
 
 print(numeros_cliente)
-
-
