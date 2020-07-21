@@ -158,7 +158,8 @@ Tasks
     - Start to learn English Grammar 30 minuts at day.
     - Buy the Flask Advanced Course.
 
-
+    - Ver como fazer o merge no Vim.
+    - 
 
 
 

@@ -7,5 +7,3 @@ Request is what your browse does.
 What is a rest api,
 
 Rest is stateless
-
-
