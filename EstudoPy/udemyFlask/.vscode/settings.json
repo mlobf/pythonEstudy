@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/italia/Área de trabalho/pythonEstudy/EstudoPy/udemyFlask/venv/bin/python3.8",
+    "python.formatting.provider": "black"
+}

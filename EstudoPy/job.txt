@@ -48,6 +48,7 @@ Saber trabalhar com frameworks de mercado (Django e Pyhton)
 Saber básico de *env (virtual / pip / mkvirtualenv)
 Conhecimentos básicos sobre arquitetura de APIs (consumir e construir)
 Conhecimentos Mongo e ou CouchDB (NoSql)
+
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
@@ -111,14 +112,22 @@ Full Stack - Toronto
 -------------------------------------------------------------------------------
 Meta 
 Skilled in Python 
-(Django, flask, pytest, scripting ...)
-, PL / SQL, Sql Server and MongoDB
+(Django, flask, pytest, scripting ...),PL / SQL, Sql Server and MongoDB
 
 Clean Code,
 Scrum,
+
 Rest Api
+MongolDB
 
+Virtual Env
+Kubnetes
 
+Aws
+BashScript
+Pytest
+
+Minimum 2 years 
 
 
 
