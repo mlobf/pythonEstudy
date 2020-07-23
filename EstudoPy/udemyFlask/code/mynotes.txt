@@ -1,0 +1,14 @@
+This is my notes related to this project.
+    Important stuffs.
+        ->Dokers
+        ->Kubinetes
+        ->Postman API
+        ->Flask Restful
+
+
+
+
+Time for fun!!!
+    => get At's list and sorted it by numbers of occurencies.
+
+
