@@ -38,6 +38,7 @@ lista = []
 driver = webdriver.Chrome(options=chrome_options)
 # -----------------------------------------------------------------------
 for letra in letras:
+#    url = f"https://www.yellowpages.ae/categories-by-alphabet/{letra}.html"
     url = f"https://www.yellowpages.ae/categories-by-alphabet/{letra}.html"
     driver.get(url)
     
@@ -47,36 +48,15 @@ for letra in letras:
         lista.append(x.text)
         print(x.text)
 
+
+
+
 from selenium import webdriver
 
-f1 = open("/home/italia/github/pythonEstudy/EstudoPy/seleniumUdemy/relatorio.txt", "w")
+f1 = open("/home/italia/Área de trabalho/pythonEstudy/EstudoPy/scrapy/relatorio.txt", "w")
 
 for l in lista:
     print(l, file=f1)
 
 driver.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
