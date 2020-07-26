@@ -1,28 +1,21 @@
-# Beg Importe
+# Beg Import
 from flask import Flask, jsonify, request, render_template
-import pdb
 
-# End Importe
+# import pdb
+
+# End Import
 
 app = Flask(__name__)
 
-pdb.set_trace()
+# pdb.set_trace()
 
 
-stores = [
-    {"name": "My wonderfull Store", "items": [{"name": "My Item", "price": 15.99}]}
-]
+stores = [{"name": "My wonderfullPOST / store data: {name:}"}]
 
 
-@app.route("/")
-def home():
-    return render_template("index.html")
-
-
-# POST / store data: {name:}
 @app.route("/store", methods=["POST"])
 def create_store():
-    request_data = request.get_json()
+    request.get_json()
     new_store = {"name": request_data["name"], "items": []}
     stores.append(new_store)
     return jsonify(new_store)
@@ -66,4 +59,4 @@ def get_items_in_store(name):
     return jsonify({"message": "store not found"})
 
 
-app.run(port=5000)
+app.run(port=5000, debug=True)

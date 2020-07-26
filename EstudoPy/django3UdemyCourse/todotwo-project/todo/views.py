@@ -20,7 +20,6 @@ def signupuser(request):
     """
     Here, at first,  shall we sort GET and POST requisition. Whereas loading
     _the page. GET will be user for ...... and POST has his use for
-    Aqui, primeiramente, separaremos os as requisições em GET, ao carregar
         _a paging com as informações do django, e POST, para trabalhar o envio das
         _dos dados para o Django.
         _O tratamento de erro de ocorre somente no POST, pois no GET, nao ha nada

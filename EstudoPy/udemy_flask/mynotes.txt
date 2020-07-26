@@ -1,3 +1,8 @@
+Estrutura do Flask
+    Imports
+        
+
+
 ______________________________________________________________________________
 Ver com descer mais rapido no Vim com as Teclas.
     ->control + U/D
