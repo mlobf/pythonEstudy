@@ -1,5 +1,4 @@
-from flask import Flask
-from flask_restful import Resource, Api
+from flask import Flask from flask_restful import Resource, Api
 
 
 app = Flask(__name__)
@@ -16,4 +15,4 @@ class Student(Resource):
 
 api.add_resource(Student, "/student/<string:name>")
 
-app.run(port=5000)
+app.run(port=5000, debug=True)
