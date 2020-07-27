@@ -6,7 +6,7 @@ class Account:
     """
     Simple class Account with balance.
         This is a test  about the use of docstrings
-        Thoose are intended to use in some way to 
+        Thoose are intended to use in some way to
         This is a test for vc code
 
 

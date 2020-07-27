@@ -17,9 +17,6 @@ print(kenwood.make)
 print(kenwood.price)
 
 
-
-
-
 kenwood.price = 12.75
 print(kenwood.price)
 
