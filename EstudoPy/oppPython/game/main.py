@@ -8,10 +8,10 @@ tim = player.Player("Tim")
 print(tim.name)
 print(tim.lives)
 
+tim.lives = 9
+
+print(tim)
 
 
-
-# tim.lives = 9
-
-# print(tim)
-
+tim._lives = 9
+print(tim)
