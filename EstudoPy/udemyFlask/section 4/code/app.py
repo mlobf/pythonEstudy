@@ -5,7 +5,7 @@ from flask_jwt import JWT, jwt_required
 from security import authenticate, identity
 
 app = Flask(__name__)
-app.secret_key = 'jose'
+app.secret_key = "jose"
 api = Api(app)
 
 jwt = JWT(app, authenticate, identity)
@@ -24,15 +24,25 @@ class Item(Resource):
         if next(filter(lambda x: x["name"] == name, items), None):
             return {"message": "An item with name {} already exists.".format(name)}, 400
 
-        data = request.get_json(force=True)
+        data = request.get_json()
         item = {"name": name, "price": data["price"]}
         items.append(item)
         return item
-    
+
     def delete(self, name):
         global items
-        items = list(filter(lambda x: x['name'] != name, items))
-        return {'message': 'Item deleted'}
+        items = list(filter(lambda x: x["name"] != name, items))
+        return {"message": "Item deleted"}
+
+    def put(self, name):
+        data = request.get_json()
+        item = next(filter(lambda x: x["name"] == name, items), None)
+        if item is None:
+            item = {'name': name, 'price': data['price']}
+            items.append(item)
+        else:
+            item.update(data)
+        return item
 
 class ItemList(Resource):
     def get(self):

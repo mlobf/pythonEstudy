@@ -3,4 +3,3 @@ class User:
         self.id = _id
         self.username = username
         self.password = password
-
