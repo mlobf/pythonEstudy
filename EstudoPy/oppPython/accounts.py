@@ -2,6 +2,7 @@ import datetime
 import pytz
 import pdb
 
+
 class Account:
     """
     Simple class Account with balance.
@@ -17,7 +18,6 @@ class Account:
     def _current_time():
         utc_time = datetime.datetime.utcnow()
         return pytz.utc.localize(utc_time)
-
 
     def __init__(self, name, balance):
         self._name = name
@@ -66,7 +66,6 @@ if __name__ == "__main__":
     tim.deposit(1000)
     tim.withdraw(500)
     tim.show_transactions()
-
 
     james = Account("James", 800)
     james.deposit(100)

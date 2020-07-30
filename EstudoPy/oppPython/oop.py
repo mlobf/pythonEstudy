@@ -7,7 +7,6 @@ class Kettle(object):
         self.price = price
         self.on = False
 
-
     def switch_on(self):
         self.on = True
 
@@ -59,7 +58,3 @@ print(hamilton.power_source)
 print(Kettle.__dict__)
 print(kenwood.__dict__)
 print(hamilton.__dict__)
-
-
-
-
