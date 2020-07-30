@@ -6,6 +6,7 @@ from enemy import Enemy
     setter is just a method used to set the value of the class data atribute
 """
 tim = Player("Tim")
+
 random_monster = Enemy("Basic Enemy", 12, 1)
 
 print(random_monster)
