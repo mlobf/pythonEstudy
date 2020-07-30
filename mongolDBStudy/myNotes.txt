@@ -1,0 +1,20 @@
+Say no to tables and yes to documents.
+    -> Thesse documents are stored in bson format, which is quite familiar to json format.
+    -> As expected,is a non relational so no join are avalible.
+    -> Use references instead join tables.
+    Why to use it?
+        Easy schema iteration.
+        Its is more scalable and has more performance.
+        Its object oriented, and the the langage use in is some how like javascript
+        The mongolDB has more approach to agile Development. 
+            ->Accomodates large volume of data and its not mandatory use structured data_
+                as schema is changed.
+        
+    Differences Documents X Collections
+        Document
+            ->A record in mongoldb and aldo the basic unity of data in it.
+            ->bson look's json.
+        Collection
+            ->A grouping of mongolDB documents
+            ->Probaly they has similar characteristics or related use.
+            ->

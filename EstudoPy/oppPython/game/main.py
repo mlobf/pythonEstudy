@@ -1,17 +1,39 @@
-import player
+from player import Player
 
 """
-    getter is an method used to get value of date atribute.
+    getter is an method used to get the value of a date atribute.
     setter is just a method used to set the value of the class data atribute
 """
-tim = player.Player("Tim")
+tim = Player("Tim")
+
 print(tim.name)
 print(tim.lives)
 
-tim.lives = 9
+tim.lives -= 1
+
+print(tim)
+
+tim.lives -= 1
 
 print(tim)
 
 
-tim._lives = 9
+tim.lives -= 1
+
+print(tim)
+
+
+tim.lives -= 1
+
+print(tim)
+
+tim.level = 2
+print(tim)
+
+
+tim.level += 5
+print(tim)
+
+tim.level = 3
+
 print(tim)
