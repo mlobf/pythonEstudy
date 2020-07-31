@@ -1,3 +1,22 @@
+A clear time review.
+
+Main Topics.
+    =>@classmethod
+    =>Workflow on code
+    =>
+    =>
+    =>
+    =>
+    =>
+    =>
+    =>
+    =>
+    =>
+    =>
+    =>
+
+
+
 This is my notes related to this project.
     Important stuffs.
         ->Dokers
