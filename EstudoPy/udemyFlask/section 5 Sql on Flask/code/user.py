@@ -3,6 +3,7 @@ from sqlite3.dbapi2 import connect
 from flask_restful import Resource, reqparse
 
 class User:
+
     def __init__(self, _id, username, password):
         self.id = _id
         self.username = username
@@ -34,6 +35,7 @@ class User:
         query = "SELECT * FROM users WHERE id=?"
         result = cursor.execute(query, (_id,))
         row = result.fetchone()
+        
         if row:
             user = cls(*row)
 
@@ -53,8 +55,12 @@ class UserRegister(Resource):
 
     def post(self):
 
-        data=UserRegister.parser.parse_args()
+        data = UserRegister.parser.parse_args()
         
+        if User.find_by_username(data['username']):
+            return {'message': "A user with that username already exists"}, 400
+
+
         connection = sqlite3.connect("data.db")
         cursor = connection.cursor()
 
@@ -65,9 +71,4 @@ class UserRegister(Resource):
         connection.close()
 
         return {"message": "User created successfully."}, 201
-
-
-
-
-
 

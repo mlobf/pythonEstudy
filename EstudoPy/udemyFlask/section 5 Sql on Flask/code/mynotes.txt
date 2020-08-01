@@ -3,7 +3,7 @@ A clear time review.
 Main Topics.
     =>@classmethod
     =>Workflow on code
-    =>
+    =>How does the JWT works?
     =>
     =>
     =>
@@ -15,8 +15,9 @@ Main Topics.
     =>
     =>
 
-
-
+    Important Quote
+    The Validation of your skill makes you professional.
+    Focus on Project Work
 This is my notes related to this project.
     Important stuffs.
         ->Dokers
@@ -31,4 +32,4 @@ This is my notes related to this project.
 Time for fun!!!
     => get At's list and sorted it by numbers of occurencies.
 
-
+stop at lesson 83
