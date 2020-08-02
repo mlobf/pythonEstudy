@@ -59,7 +59,7 @@ class Item(Resource):
         return item
 
 
-clas ItemList(Resource):
+class ItemList(Resource):
     def get(self):
         return {"items": items}
 
