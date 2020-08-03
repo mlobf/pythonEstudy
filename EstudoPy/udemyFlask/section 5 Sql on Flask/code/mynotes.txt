@@ -35,8 +35,13 @@ This is my notes related to this project.
 Time for fun!!!
     => get At's list and sorted it by numbers of occurencies.
 
+--------------------------------------------------------------------------------------------
 stop at lesson 83
+--------------------------------------------------------------------------------------------
+    Prevent registration twice of username.
+    
 
+--------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------
 Lesson 91 - SQLAlchemy on Flask
@@ -54,5 +59,4 @@ Lesson 91 - SQLAlchemy on Flask
 
     pip3.8 install Flask-SQLAlchemy
 
-
-
+Tip - Usualy the botleneck is the DB.

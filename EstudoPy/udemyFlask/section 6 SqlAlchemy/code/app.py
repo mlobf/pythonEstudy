@@ -5,7 +5,6 @@ from flask_jwt import JWT, jwt_required
 from security import authenticate, identity
 from user import UserRegister
 
-
 app = Flask(__name__)
 app.secret_key = "jose"
 api = Api(app)
@@ -43,7 +42,7 @@ class Item(Resource):
         return item
 
     def delete(self, name):
-        global items
+        global items # This varible is the Outer items variable 
         items = list(filter(lambda x: x["name"] != name, items))
         return {"message": "Item deleted"}
 
@@ -63,7 +62,7 @@ class ItemList(Resource):
     def get(self):
         return {"items": items}
 
-
+# The endpoint /oath was already created by jwt_token
 api.add_resource(Item, "/item/<string:name>")
 api.add_resource(ItemList, "/items")
 api.add_resource(UserRegister, "/register")

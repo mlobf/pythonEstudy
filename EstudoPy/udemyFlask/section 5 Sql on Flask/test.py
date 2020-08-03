@@ -1,21 +1,25 @@
 import sqlite3
 from sqlite3.dbapi2 import connect
 
+#-------------------------------------------------------------------------
+#Create an connection
 connection = sqlite3.connect("data.db")
-
+#Create an cursor
 cursor = connection.cursor()
-# Bellow follows schema for users table
+# Bellow follows schema to create an table, table's Users.
 create_table = "CREATE TABLE users (id int, username text, password text)"
-
 cursor.execute(create_table)
 
-
+#-------------------------------------------------------------------------
+# Inserting one user by time
 user = (1, "jose", "asdf")
 
 insert_query = "INSERT INTO users VALUES (?,?,?)"
 
 cursor.execute(insert_query, user)
 
+#-------------------------------------------------------------------------
+# Inserting many users at one time.
 users = [
     (1, "jose", "asdf"),
     (2, "maria", "asdf"),
@@ -37,7 +41,8 @@ users = [
 ]
 
 cursor.executemany(insert_query, users)
-
+#-------------------------------------------------------------------------
+#Retrive information form table
 select_query = "SELECT * FROM users"
 # select_query = "SELECT id FROM users"
 # select_query = "SELECT username FROM users"
@@ -46,6 +51,8 @@ for row in cursor.execute(select_query):
     print(row)
 
 
+#-------------------------------------------------------------------------
+#Closing commitin and  connection.
 connection.commit()
 
 connection.close()

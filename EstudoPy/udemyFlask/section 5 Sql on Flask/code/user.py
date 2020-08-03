@@ -54,7 +54,7 @@ class UserRegister(Resource):
     parser.add_argument('password',type=str, required=True, help="This field can not be blank")
 
     def post(self):
-
+        #
         data = UserRegister.parser.parse_args()
         
         if User.find_by_username(data['username']):

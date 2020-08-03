@@ -54,5 +54,54 @@ Lesson 91 - SQLAlchemy on Flask
 
     pip3.8 install Flask-SQLAlchemy
 
+--------------------------------------------------------------------------------------------
+Create two new folder, models and resources, respecty, each one shall contain
+    __init__.py file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
