@@ -60,8 +60,23 @@ Create two new folder, models and resources, respecty, each one shall contain
 
 
 
+--------------------------------------------------------------------------------------------
+As REST-ful apps are intrinsically related with HTTP verbs, makes, undoubted relevant,
+be more wise on that:
+So, as rule of thumb, I will describe follow.
 
-
+   Having as rendezvous point server mind.
+  
+       GET,
+        ->
+       POST,
+        ->
+       PUT,
+        ->
+       PATCH, 
+        ->
+       DELETE,
+        ->
 
 
 
