@@ -16,7 +16,7 @@ items = []
 
 
 class Item(Resource):
-    
+
     parser = reqparse.RequestParser()
     parser.add_argument(
         "price", type=float, required=True, help="This field can not be left blank!"
@@ -35,11 +35,9 @@ class Item(Resource):
 
         data = Item.parser.parse_args()
         # data = request.get_json() -> Remove as Request parse is enable
-        item = {
-            "name": name, "price": data["price"]
-        }
+        item = {"name": name, "price": data["price"]}
         items.append(item)
-        
+
         return item
 
     def delete(self, name):

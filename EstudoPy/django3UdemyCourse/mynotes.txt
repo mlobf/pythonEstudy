@@ -137,6 +137,7 @@ todo two
 
 
 
+A.	Fale de sua experiência como desenvolvedor PYTHON (Cite o projeto desenvolvido, tecnologias usadas, período, impacto o tamanho da equipe e sua posição dentro da equipe)?
 
 
 

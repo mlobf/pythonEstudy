@@ -18,7 +18,7 @@ def home(request):
 
 def signupuser(request):
     """
-    Here, at first,  shall we sort GET and POST requisition. Whereas loading
+    Here, at first, we shall sort GET and POST requisition. Whereas loading
     _the page. GET will be user for ...... and POST has his use for
         _a paging com as informações do django, e POST, para trabalhar o envio das
         _dos dados para o Django.
