@@ -28,18 +28,10 @@ for p in range(int(total_paginas)):
     url1 = f"https://inquisicao.info/search?key=Juda%C3%ADsmo&cat=2&page={p}"
     driver.get(url1)
 # Buscar a lista dos Processos por nomes.----------------------------------
+
     x = driver.find_elements_by_class_name('card-title')
+    y = driver.find_elements_by_class_name('card-text')
     for n in x:
         print(n.text)
-# --------------------------------------------------------------------------
-"""
-for n in x:
-    print(n.text)
-
-if x:
-    print("ok, I got  It")
-else:
-    print("Houston we have a problem")
-
-print(x[-2].text)
-"""
+    for n in y:
+        print(n.text)
