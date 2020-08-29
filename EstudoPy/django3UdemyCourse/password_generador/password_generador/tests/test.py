@@ -1,6 +1,7 @@
 from django.test import TestCase
 from generator.views import home, password, about
 
+
 class ViewTest(TestCase):
 
     def test_home(self):
@@ -11,3 +12,6 @@ class ViewTest(TestCase):
 
     def test_about(self):
         pass
+
+
+# test git
