@@ -4,7 +4,7 @@ import random
 
 
 # Create your views here.
-
+# test
 
 def home(request):
     return render(request, "generator/home.html")
