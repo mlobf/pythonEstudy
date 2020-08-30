@@ -12,6 +12,3 @@ class ViewTest(TestCase):
 
     def test_about(self):
         pass
-
-
-# test git
