@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "/home/italia/Documents/GitRepo/EstudoPython/myvenv/bin/python"
+  "python.pythonPath": "/home/italia/Documents/GitRepo/EstudoPython/myvenv/bin/python",
+  "python.formatting.provider": "black"
 }

@@ -3,7 +3,7 @@
 # Conceito de Getter
 # Obtem um valor
 
-# Conceito de Sett
+# Conceito de Setter
 # Configura um valor
 
 
